@@ -150,4 +150,23 @@ a:hover {
     font-size: 40px;
 }
 
+@media screen and (max-width: 768px) {
+    section, aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    nav ul li a {
+        float: none;
+        text-align: center;
+        width: 100%;        
+    }
+
+    footer p {
+        display: none;
+    }
+}
+
 /* ANIMAÇÃO DO MENU */
